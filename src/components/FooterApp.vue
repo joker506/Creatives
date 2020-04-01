@@ -11,7 +11,7 @@
 export default {
     name:'FooterApp'
 }
-</script>>
+</script>
 <style lang="scss">
 .footer{
     max-width: 1600px;
