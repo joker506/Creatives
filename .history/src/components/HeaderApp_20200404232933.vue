@@ -41,17 +41,14 @@
 export default {
     name:'HeaderApp',
     data(){
-        return{
-            items:[
-        'Home',           
-        'Pages',        
-        'Features',           
-        'Extensions',            
-        'Tutorials',            
-        'Contact us'
-        ]
-          }
-          },
+  items:[
+           'Home',           
+           'Pages',        
+           'Features',           
+           'Extensions',            
+           'Tutorials',            
+           'Contact us'
+        ],    },
     methods:{
         scrollDown(){
         console.log("scroll")

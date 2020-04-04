@@ -40,18 +40,9 @@
 
 export default {
     name:'HeaderApp',
-    data(){
-        return{
-            items:[
-        'Home',           
-        'Pages',        
-        'Features',           
-        'Extensions',            
-        'Tutorials',            
-        'Contact us'
-        ]
-          }
-          },
+    props:{
+        items:Array,
+    },
     methods:{
         scrollDown(){
         console.log("scroll")

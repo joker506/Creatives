@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-<HeaderApp />
+<HeaderApp  />
 <AdvantagesApp />
 <TeamApp />
 <FooterApp />
@@ -22,14 +22,11 @@ import FooterApp from './components/FooterApp.vue'
 export default {
   name: 'App',
   data(){
-
+    items:Array,
     return{
     msg:"welcome",
     counter:10,
-
-  
     }
-    
   },
   components: {
     HelloWorld,

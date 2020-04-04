@@ -8,10 +8,12 @@
 </a>
 <nav class="main-nav">
     <ul class="main-nav__items">
-        <li class="item" v-for="item in items" :key="item" >
+        <li class="item" :v-for="item in items" >
             <a href="#">{{item}}</a> </li>
+     
     </ul>
 </nav>
+
 <div class="social">
     <ul class="social__items">
         <li class="social__item social__item--fb">
@@ -24,8 +26,10 @@
             <a class="social__link" href="#"></a></li>
     </ul>
 </div>
+
 </div>
 <div class="header__main">
+
 <h1 class="header__title" >Creatives</h1>
 <p class="text"><a href="Power by PSDfreebies.com"> Power by PSDfreebies.com</a></p>
 
@@ -33,7 +37,10 @@
     <a @click="scrollDown" class="btn__main-link" href="#team">scroll down</a>
 </span>
 </div>
+
+
 </header>
+
 </template>
 
 <script>
@@ -41,17 +48,11 @@
 export default {
     name:'HeaderApp',
     data(){
-        return{
-            items:[
-        'Home',           
-        'Pages',        
-        'Features',           
-        'Extensions',            
-        'Tutorials',            
-        'Contact us'
-        ]
-          }
-          },
+items:[
+    'first',
+    'second'
+]
+    },
     methods:{
         scrollDown(){
         console.log("scroll")

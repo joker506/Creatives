@@ -21,7 +21,6 @@ import FooterApp from './components/FooterApp.vue'
 
 export default {
   name: 'App',
-  data(){
 
     return{
     msg:"welcome",

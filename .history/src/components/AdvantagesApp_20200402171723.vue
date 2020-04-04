@@ -1,5 +1,5 @@
-<template >
-<section class="advantages" >
+<template class="#first">
+<section class="advantages">
     <div class="wrap">
 <h2 class="advantages__title">
     We Are An Awesome Agency

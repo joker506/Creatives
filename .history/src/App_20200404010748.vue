@@ -1,6 +1,8 @@
 <template>
   <div id="app">
-<HeaderApp />
+<HeaderApp 
+      :items=items
+ />
 <AdvantagesApp />
 <TeamApp />
 <FooterApp />
@@ -26,8 +28,14 @@ export default {
     return{
     msg:"welcome",
     counter:10,
-
-  
+    items:[
+           'Home',           
+           'Pages',        
+           'Features',           
+           'Extensions',            
+           'Tutorials',            
+           'Contact us'
+        ],
     }
     
   },

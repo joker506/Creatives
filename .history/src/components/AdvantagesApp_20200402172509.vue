@@ -1,5 +1,5 @@
 <template >
-<section class="advantages" >
+<section class="advantages" id="team">
     <div class="wrap">
 <h2 class="advantages__title">
     We Are An Awesome Agency

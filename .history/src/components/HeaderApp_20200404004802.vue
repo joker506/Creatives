@@ -8,8 +8,8 @@
 </a>
 <nav class="main-nav">
     <ul class="main-nav__items">
-        <li class="item" v-for="item in items" :key="item" >
-            <a href="#">{{item}}</a> </li>
+        <li class="item" v-for="elem in items" :key="elem" >
+            <a href="#">{{elem}}</a> </li>
     </ul>
 </nav>
 <div class="social">
@@ -40,18 +40,18 @@
 
 export default {
     name:'HeaderApp',
-    data(){
-        return{
-            items:[
-        'Home',           
-        'Pages',        
-        'Features',           
-        'Extensions',            
-        'Tutorials',            
-        'Contact us'
+data(){
+    return{
+        items:[
+           'Home',           
+           'Pages',        
+           'Features',           
+           'Extensions',            
+           'Tutorials',            
+           'Contact us'
         ]
-          }
-          },
+    }
+},
     methods:{
         scrollDown(){
         console.log("scroll")

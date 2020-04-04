@@ -41,8 +41,7 @@
 export default {
     name:'HeaderApp',
     data(){
-        return{
-            items:[
+  items:[
         'Home',           
         'Pages',        
         'Features',           
@@ -50,7 +49,6 @@ export default {
         'Tutorials',            
         'Contact us'
         ]
-          }
           },
     methods:{
         scrollDown(){
