@@ -30,25 +30,13 @@ export default {
                     id:1,
                     name:"JOHN SNOW",
                     proff:"CEO",
-                    img:'/assets/Layer81.png'
+                    img:'https://yandex.ru/images/search?text=картинки&img_url=https%3A%2F%2Fae01.alicdn.com%2Fkf%2FHTB1zy0pLXXXXXbdXVXXq6xXFXXXd%2F1Panel-HD-Decorative-Art-Picture-Lake-Mountain-Beautiful-Tree-Painting-On-Canvas-For-Living-Room-Home.jpg&pos=3&rpt=simage&stype=image&lr=10740&parent-reqid=1586037195637320-683348024596671062400154-production-app-host-man-web-yp-53&source=wiz'
                 },
                 {
                     id:2,
                     name:"LADY SANSA",
                     proff:"WebDesigner",
-                    img:'https://w-dog.ru/wallpapers/2/91/375706351677939/derevya-pejzazh-prud-vodopad.jpg'
-                },
-                {
-                    id:3,
-                    name:"JOHN MMAc",
-                    proff:"Pgotographer",
-                    img:'~/assets/Layer83.png'
-                },
-                {
-                    id:4,
-                    name:"LADY SIMPS",
-                    proff:"Pgotographer",
-                    img:'https::/assets/Layer84.png'
+                    img:'~@/assets/Layer82.png'
                 }
             ]
         }
@@ -106,10 +94,6 @@ line-height: 37px;
     width: 270px;
     height: 480px;
     position: relative;
-}
-.staff__first>img{
-    width: 270px;
-    height: 470px;
 }
 .staff-wrap{
     position: absolute;

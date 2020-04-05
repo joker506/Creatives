@@ -30,19 +30,19 @@ export default {
                     id:1,
                     name:"JOHN SNOW",
                     proff:"CEO",
-                    img:'/assets/Layer81.png'
+                    img:"/assets/Layer81.png"
                 },
                 {
                     id:2,
                     name:"LADY SANSA",
                     proff:"WebDesigner",
-                    img:'https://w-dog.ru/wallpapers/2/91/375706351677939/derevya-pejzazh-prud-vodopad.jpg'
+                    img:'~@/assets/Layer82.png'
                 },
                 {
                     id:3,
                     name:"JOHN MMAc",
                     proff:"Pgotographer",
-                    img:'~/assets/Layer83.png'
+                    img:'~@/assets/Layer83.png'
                 },
                 {
                     id:4,
@@ -106,10 +106,6 @@ line-height: 37px;
     width: 270px;
     height: 480px;
     position: relative;
-}
-.staff__first>img{
-    width: 270px;
-    height: 470px;
 }
 .staff-wrap{
     position: absolute;

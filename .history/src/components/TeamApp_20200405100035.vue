@@ -108,7 +108,7 @@ line-height: 37px;
     position: relative;
 }
 .staff__first>img{
-    width: 270px;
+    width: 218px;
     height: 470px;
 }
 .staff-wrap{

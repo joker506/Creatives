@@ -7,7 +7,7 @@
 
 <div class="team-block">
 
-<div v-for="staff in staffs" :key="staff" class="staff__first" >
+<div v-for="staff in staffs" :key="staff.id" class="staff__first" >
     <img :src="staff.img" alt="">
     <div class="staff-wrap">
     <h3 class="staff__title">{{staff.name}}</h3>
@@ -23,6 +23,7 @@
 <script>
 export default {
     name:'TeamApp',
+    
     data(){
         return{
             staffs:[
@@ -30,25 +31,13 @@ export default {
                     id:1,
                     name:"JOHN SNOW",
                     proff:"CEO",
-                    img:'/assets/Layer81.png'
+                    img:'~@/assets/Layer81.png'
                 },
                 {
                     id:2,
                     name:"LADY SANSA",
                     proff:"WebDesigner",
-                    img:'https://w-dog.ru/wallpapers/2/91/375706351677939/derevya-pejzazh-prud-vodopad.jpg'
-                },
-                {
-                    id:3,
-                    name:"JOHN MMAc",
-                    proff:"Pgotographer",
-                    img:'~/assets/Layer83.png'
-                },
-                {
-                    id:4,
-                    name:"LADY SIMPS",
-                    proff:"Pgotographer",
-                    img:'https::/assets/Layer84.png'
+                    img:'~@/assets/Layer82.png'
                 }
             ]
         }
@@ -106,10 +95,6 @@ line-height: 37px;
     width: 270px;
     height: 480px;
     position: relative;
-}
-.staff__first>img{
-    width: 270px;
-    height: 470px;
 }
 .staff-wrap{
     position: absolute;
