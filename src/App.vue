@@ -11,7 +11,6 @@
        :counter=counter />
   </div>
 </template>
-
 <script>
 import HelloWorld from './components/HelloWorld.vue'
 import HeaderApp from './components/HeaderApp.vue'
