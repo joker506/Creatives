@@ -8,7 +8,7 @@
 <div class="team-block">
 
 <div v-for="staff in staffs" :key="staff.id" class="staff__first" >
-    <img :src="require('@/assets'+staff.img)" alt="">
+    <img :src="require('@/assets'+ staff.img)" alt="">
     <div class="staff-wrap">
     <h3 class="staff__title">{{staff.name}}</h3>
     <span class="staff__prof">{{staff.proff}}</span>
@@ -30,25 +30,25 @@ export default {
                     id:1,
                     name:"JOHN SNOW",
                     proff:"CEO",
-                    img:'/Layer81.png'
+                    img:'/assets/Layer81.png'
                 },
                 {
                     id:2,
                     name:"LADY SANSA",
                     proff:"WebDesigner",
-                    img:'/Layer82.png'
+                    img:'https://w-dog.ru/wallpapers/2/91/375706351677939/derevya-pejzazh-prud-vodopad.jpg'
                 },
                 {
                     id:3,
                     name:"JOHN MMAc",
                     proff:"Pgotographer",
-                    img:'/assets/Layer83.png'
+                    img:'~/assets/Layer83.png'
                 },
                 {
                     id:4,
                     name:"LADY SIMPS",
                     proff:"Pgotographer",
-                    img:'/assets/Layer84.png'
+                    img:'https::/assets/Layer84.png'
                 }
             ]
         }
@@ -107,7 +107,10 @@ line-height: 37px;
     height: 480px;
     position: relative;
 }
-
+.staff__first>img{
+    width: 270px;
+    height: 470px;
+}
 .staff-wrap{
     position: absolute;
     top: 360px;

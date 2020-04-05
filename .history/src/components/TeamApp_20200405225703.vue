@@ -7,7 +7,7 @@
 
 <div class="team-block">
 
-<div v-for="staff in staffs" :key="staff.id" class="staff__first" >
+<div v-for="staff in staffs" :key="staff" class="staff__first" >
     <img :src="require('@/assets'+staff.img)" alt="">
     <div class="staff-wrap">
     <h3 class="staff__title">{{staff.name}}</h3>

@@ -8,7 +8,8 @@
 <div class="team-block">
 
 <div v-for="staff in staffs" :key="staff.id" class="staff__first" >
-    <img :src="require('@/assets'+staff.img)" alt="">
+    <img :src="require+(staff.img)" alt="">
+
     <div class="staff-wrap">
     <h3 class="staff__title">{{staff.name}}</h3>
     <span class="staff__prof">{{staff.proff}}</span>
@@ -107,7 +108,10 @@ line-height: 37px;
     height: 480px;
     position: relative;
 }
-
+.staff__first>img{
+    width: 270px;
+    height: 470px;
+}
 .staff-wrap{
     position: absolute;
     top: 360px;
