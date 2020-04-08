@@ -50,7 +50,12 @@ export default {
                     proff:"Pgotographer",
                     img:'/Layer84.png'
                 },
-               
+                {
+                    id:5,
+                    name:"LADY SIMPS",
+                    proff:"Pgotographer",
+                    img:'/Layer84.png'
+                }
                 
             ]
         }

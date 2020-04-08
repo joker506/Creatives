@@ -8,7 +8,7 @@
 <div class="team-block">
 
 <div v-for="staff in staffs" :key="staff.id" class="staff__first" >
-    <img :src="require('@/assets'+staff.img)" alt="">
+    <img :src=" ('@/assets'+staff.img)" alt="">
     <div class="staff-wrap">
     <h3 class="staff__title">{{staff.name}}</h3>
     <span class="staff__prof">{{staff.proff}}</span>
@@ -42,16 +42,14 @@ export default {
                     id:3,
                     name:"JOHN MMAc",
                     proff:"Pgotographer",
-                    img:'/Layer83.png'
+                    img:'/assets/Layer83.png'
                 },
                 {
                     id:4,
                     name:"LADY SIMPS",
                     proff:"Pgotographer",
-                    img:'/Layer84.png'
-                },
-               
-                
+                    img:'/assets/Layer84.png'
+                }
             ]
         }
     }

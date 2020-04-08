@@ -49,9 +49,7 @@ export default {
                     name:"LADY SIMPS",
                     proff:"Pgotographer",
                     img:'/Layer84.png'
-                },
-               
-                
+                }
             ]
         }
     }
