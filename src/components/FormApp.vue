@@ -42,7 +42,6 @@
             :disabled="$v.$invalid">submit</button>
 </form>
 </div>
-
 </template>
 
 <script>
